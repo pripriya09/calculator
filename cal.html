@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .blackbox {
+        width: 300px;
+        height: 400px;
+        background-color: #1f1e1e;
+        margin: 50px auto;
+        box-shadow: 10px 10px 10px #000000;
+        border-radius: 20px;
+        border: 10px solid hsl(0, 7%, 11%);
+    }
+    .box{
+        font-size: 18px;
+    padding: 18px;
+    border-radius: 10px;
+    border: 10px solid #201e1e;
+    }
+   
+    button {
+    font-size: 30px;
+    width: 61px;
+    margin: 2px;
+    border: 10px solid #1a1919;
+    border-radius: 10px;
+
+}
+</style>
+
+<body>
+    <div class="blackbox">
+        <input class="box" type="text">
+        <div class="raw">
+            <button value="*">x</button>
+            <button value="/">/</button>
+            <button value="-">-</button>
+            <button value="+">+</button>
+        </div>
+        <div class="raw">
+            <button value="9">9</button>
+            <button value="8">8</button>
+            <button value="7">7</button>
+            <button value="6">6</button>
+        </div>
+        <div class="raw">
+            <button value="5">5</button>
+            <button value="4">4</button>
+            <button value="3">3</button>
+            <button value="2">2</button>
+        </div>
+        <div class="raw">
+            <button value="1">1</button>
+            <button value="0">0</button>
+            <button value=".">.</button>
+            <button value="=">=</button>
+        </div>
+        <div class="raw">
+            <button value="c">C</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="cal.js"></script>
+
+
+</body>
+
+</html>
